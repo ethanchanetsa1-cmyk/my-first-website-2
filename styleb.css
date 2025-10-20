@@ -1,0 +1,44 @@
+body{
+    background-image: url(pharmaceuticals-supplements-depicted-with-beige-pills-beige-background_908985-48118.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: x-large;
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::before {
+    position: absolute;
+    content: "";
+}
+
+.btn {
+    position: relative;
+    display: inline-block;;
+    cursor: pointer;
+    border: none;
+    background-color: thistle;
+}
+.btn span {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0;
+
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    width: 100%;
+
+    padding: 15px 25px;
+    transition: 0.5s;
+
+}

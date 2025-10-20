@@ -1,0 +1,53 @@
+body{background-color:  rgb(141, 61, 39);;
+    font-size: larger;
+    image-rendering: crisp-edges;
+    text-align: center;
+    border: 8px solid bisque;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: none;
+    }
+    .box{
+        border: 5px solid burlywood;
+        background-color: rgb(116, 77, 44);
+        margin: 50px;
+        padding: 20px;
+        font-size: large;
+            }
+
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::before {
+    position: absolute;
+    content: "";
+}
+
+.btn {
+    position: relative;
+    display: inline-block;;
+    cursor: pointer;
+    border: none;
+    background-color: thistle;
+}
+.btn span {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0;
+
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    width: 100%;
+
+    padding: 15px 25px;
+    transition: 0.5s;
+
+}
